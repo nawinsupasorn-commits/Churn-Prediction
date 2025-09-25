@@ -53,6 +53,7 @@ Spodify_dataset['ads_burden'] = Spodify_dataset['ads_listened_per_week'] / (Spod
 ### Visualization Highlights
 
 * **Correlation Heatmap** (ตัวแปรเชิงตัวเลข)
+<Figure size 800x600 with 2 Axes><img width="764" height="656" alt="image" src="https://github.com/user-attachments/assets/22d2240e-7123-4f5e-9994-a55a31261ecd" />
 * **Churn Distribution** (countplot)
 * **Confusion Matrices** (per model)
 * **Feature Importance** (XGBoost: top drivers = engagement, listening_time, songs_per_day, ads_burden)
