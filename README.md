@@ -60,15 +60,22 @@ Spodify_dataset['ads_burden'] = Spodify_dataset['ads_listened_per_week'] / (Spod
 
 * **Confusion Matrices** (per model)
 * Logistic-Regression
+
 <Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/0349c4d5-ee2e-48f0-868e-eab836a89cfc" />
 
+
 * Random Forest
+
 <Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/ba20f90c-cc11-4583-9f92-d88e838f2daa" />
 
+
 * XGBoost
+
 <Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/84f42548-b711-4a6a-b2be-8467e8047f7d" /> 
 
+
 * Best XGBoost
+
 <Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/27a8365a-7529-4aa5-9ef9-1b15a9ccf18a" />
 
  
