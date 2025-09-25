@@ -54,9 +54,26 @@ Spodify_dataset['ads_burden'] = Spodify_dataset['ads_listened_per_week'] / (Spod
 
 * **Correlation Heatmap** (ตัวแปรเชิงตัวเลข)
 <Figure size 800x600 with 2 Axes><img width="764" height="656" alt="image" src="https://github.com/user-attachments/assets/22d2240e-7123-4f5e-9994-a55a31261ecd" />
+
 * **Churn Distribution** (countplot)
+<Figure size 640x480 with 1 Axes><img width="575" height="455" alt="image" src="https://github.com/user-attachments/assets/b31cbd58-55dc-4ac1-bfeb-e76fb6b0f6d4" />
+
 * **Confusion Matrices** (per model)
+* Logistic-Regression
+<Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/0349c4d5-ee2e-48f0-868e-eab836a89cfc" />
+
+* Random Forest
+<Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/ba20f90c-cc11-4583-9f92-d88e838f2daa" />
+
+* XGBoost
+<Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/84f42548-b711-4a6a-b2be-8467e8047f7d" /> 
+
+* Best XGBoost
+<Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/27a8365a-7529-4aa5-9ef9-1b15a9ccf18a" />
+
+ 
 * **Feature Importance** (XGBoost: top drivers = engagement, listening_time, songs_per_day, ads_burden)
+<Figure size 1000x600 with 1 Axes><img width="824" height="547" alt="image" src="https://github.com/user-attachments/assets/30ff84b8-f150-4ad7-ae39-687214c45212" />
 
 ---
 
