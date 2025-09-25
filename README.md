@@ -79,7 +79,8 @@ Spodify_dataset['ads_burden'] = Spodify_dataset['ads_listened_per_week'] / (Spod
 <Figure size 600x500 with 2 Axes><img width="517" height="470" alt="image" src="https://github.com/user-attachments/assets/27a8365a-7529-4aa5-9ef9-1b15a9ccf18a" />
 
  
-* **Feature Importance** (XGBoost: top drivers = engagement, listening_time, songs_per_day, ads_burden)
+* **Feature Importance** (XGBoost: top drivers = age_groups_Seniors,region_Oceania,age_groups_Young adult,subscription_type_Free,offline_listening)
+
 <Figure size 1000x600 with 1 Axes><img width="824" height="547" alt="image" src="https://github.com/user-attachments/assets/30ff84b8-f150-4ad7-ae39-687214c45212" />
 
 ---
