@@ -10,7 +10,7 @@
 * **Feature Engineering:** สร้างตัวแปรใหม่ เช่น `song_skipped`, `high_skip`, `low_listening`, `ads_burden`, `engagement_score`
 * **Models Tested:** Logistic Regression, Random Forest, XGBoost
 * **Best Model:** Tuned XGBoost (`RandomizedSearchCV`) ให้ผลดีที่สุด (Accuracy ≈ 0.79, F1 ≈ 0.76, ROC-AUC ≈ 0.79)
-* **Key Drivers of Churn:** engagement level, listening time, songs per day, skip rate, ads burden
+* **Key Drivers of Churn:** age_groups_Seniors,region_Oceania,age_groups_Young adult,subscription_type_Free,offline_listening
 
 ✅ **ผลลัพธ์สรุป:** โมเดลสามารถทำนาย churn ได้อย่างแม่นยำพอสมควร โดยมี XGBoost เป็นตัวเลือกที่ดีที่สุดในงานนี้
 
