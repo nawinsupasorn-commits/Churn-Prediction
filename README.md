@@ -2,7 +2,7 @@
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 โปรเจกต์นี้วิเคราะห์ข้อมูลผู้ใช้งาน Spotify เพื่อพยากรณ์ **churn (การเลิกใช้งาน)** โดยใช้ Machine Learning Pipeline ที่ประกอบด้วยการทำ **EDA, Feature Engineering, SMOTE balancing, Model Training, และ Hyperparameter Tuning**
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📊 Appendix (Technical Details)
+## Appendix (Technical Details)
 
 ### Dataset & Preprocessing
 
@@ -57,14 +57,9 @@ Spodify_dataset['ads_burden'] = Spodify_dataset['ads_listened_per_week'] / (Spod
 * **Confusion Matrices** (per model)
 * **Feature Importance** (XGBoost: top drivers = engagement, listening_time, songs_per_day, ads_burden)
 
-### Bugs / Notes
-
-* Typo ในโค้ด: `one_hot_encoded_vi_df` → ควรแก้เป็น `one_hot_encoded_df`
-* สูตร `engagement_score` ในไฟล์ถูกตัด (truncated) — README นี้อธิบายเป็น inferred version
-
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ```bash
 git clone https://github.com/nawinsupasorn-commits/Churn-Prediction.git
@@ -79,7 +74,7 @@ jupyter notebook Spodify_EDA_ML.ipynb
 
 ## Author
 
-**Nawin Supasorn** — Data Science Enthusiast
+**Nawin Supasorn**
 
 ---
 
